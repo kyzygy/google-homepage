@@ -1,0 +1,150 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+
+input {
+  outline: none;
+}
+
+#search {
+  padding-top: 40px;
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+#search img {
+  display: block;
+  margin: auto;
+  padding-top: 112px;
+}
+
+#search #text {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 575px;
+  padding: 12px 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px #dcdcdc;
+}
+
+#search #text:hover {
+  box-shadow: 0 3px 6px #dcdcdc;
+}
+
+#search input {
+  border: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  width: 525px;
+  display: inline-block;
+}
+
+
+#buttons button {
+  display: inline-block;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  color: #777777;
+  margin: 14px 2px;
+  padding: 9px 15px;
+  outline: none;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+}
+
+#buttons button:hover {
+  border: 1px solid #b5b5b5;
+  color: black;
+}
+
+#buttons {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+nav {
+  height: 30px;
+  margin-top: 15px;
+  min-width: 866px;
+  padding-top: 5px;
+}
+
+nav a {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  color: #272727;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0 10px 0 5px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-top-left {
+  margin-left: 20px;
+  float: left;
+}
+
+.nav-top-right {
+  float: right;
+  margin-right: 15px;
+}
+
+.appicon {
+  display: inline-block;
+  background-image: url(img/g_icons.png);
+  background-size: 528px 68px;
+  background-position:  -132px -38px;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  opacity: .55;
+}
+
+.appicon:hover {
+  opacity: 1;
+}
+.right {
+  float: right;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #d3d3d3;
+  
+}
+
+footer a {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  color: #272727;
+  padding: 13px;
+}
+
+#footer-left {
+  float: left;
+  margin-left: 17px;
+}
+
+#footer-right {
+  float: right;
+  margin-right: 17px;
+}
+
